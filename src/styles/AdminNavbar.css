@@ -1,0 +1,44 @@
+
+.AdminNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.AdminNavbar .logo h1 {
+    font-size: 1.8rem;
+    color: #fff;
+}
+.AdminNavbar .logo a{
+    text-decoration: none;
+}
+
+.AdminNavbar .logo a span {
+    color: #FF6347; 
+    font-weight: bold;
+}
+
+.AdminNavbar .links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.AdminNavbar .links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.AdminNavbar .links a:hover {
+    color: #FF6347;
+}
+
+.AdminNavbar .links a .MuiSvgIcon-root { 
+    font-size: 1.2rem;
+    vertical-align: middle;
+}

@@ -1,0 +1,47 @@
+
+.Footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+
+   
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Footer .contact {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.Footer .contact span {
+    font-weight: bold;
+    color: #FF6347; 
+}
+
+.Footer .connect {
+    display: flex;
+    gap: 1rem;
+}
+
+.Footer .connect .MuiSvgIcon-root { /* For the icons */
+    font-size: 1.5rem;
+    color: #fff;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.Footer .connect .MuiSvgIcon-root:hover {
+    color: #FF6347; 
+}
+
+
+body, .main-content {
+    padding-bottom: 80px; 
+}
